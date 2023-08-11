@@ -1,6 +1,6 @@
 # Deep Reinforcement Learning Based Anti-Jamming
 
-This project is an implementation of the paper "Deep Reinforcement Learning Based Anti-Jamming Using Clear Channel Assessment Information in a Cognitive Radio Environment". It uses a Double Deep Q-Network (DDQN) to train an agent for optimal channel selection in a wireless communication environment to mitigate the effects of jamming. The agent is trained and tested in an ns-3 Gym environment, where it interacts with different types of jammers.
+This project is an implementation of the paper "Deep Reinforcement Learning Based Anti-Jamming Using Clear Channel Assessment Information in a Cognitive Radio Environment" (https://ieeexplore.ieee.org/document/9993858/). It uses a Double Deep Q-Network (DDQN) to train an agent for optimal channel selection in a wireless communication environment to mitigate the effects of jamming. The agent is trained and tested in an ns-3 Gym environment, where it interacts with different types of jammers.
 
 ## Getting Started
 
@@ -13,7 +13,8 @@ These instructions will get you a copy of the project up and running on your loc
 - Gym
 - Matplotlib
 - Numpy
-- ns3-gym
+- ns3 3.30
+- ns3-gym 1.0.2
 
 Please refer to the `requirements.txt` file for the specific versions of libraries used.
 
