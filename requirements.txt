@@ -5,3 +5,4 @@ numpy==1.19.5
 matplotlib==3.3.4
 ns3gym==1.0.2
 json5==0.9.5
+ns3==3.0.0
